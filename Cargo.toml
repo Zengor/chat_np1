@@ -1,0 +1,13 @@
+[package]
+authors = ["Zengor <zengor@hotmail.com>"]
+name = "chat_np1"
+version = "0.1.0"
+[[bin]]
+name = "server"
+path = "src/server/main.rs"
+[[bin]]
+name = "client"
+path = "src/client/main.rs"
+
+[dependencies]
+lazy_static = "0.2.8"
