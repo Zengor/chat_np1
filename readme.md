@@ -4,7 +4,8 @@ Por falta de tempo e experiência, não foi feita interface gráfica. Além diss
 
 Os seguintes opcionais foram implementados:
 - Utilizar o formato binário no protocolo de comunicação entre cliente e servidor (ver src/message.rs)
-- Permitir que o usuário possa criar uma nova sala de bate papo pública, tornando-se o administrador dela onde possa retirar uma pessoa da mesma. 
+
+- Permitir que o usuário possa criar uma nova sala de bate papo pública, tornando-se o administrador dela onde possa retirar uma pessoa da mesma. (ver src/chatserver.rs)
 
 ## Quirks:
 - Direitos de administrador são dados por ordem de chegada. O primeiro a entrar numa sala é considerado administrador. Ao sair, o segundo é considerado administrador, e assim em diante.
